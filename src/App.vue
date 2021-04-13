@@ -9,7 +9,6 @@
 <script>
 import navbar from './components/navbar'
 import footer from './components/Footer'
-import yazi from './assets/asdasd.json'
 export default {
   name: 'App',
 
@@ -17,14 +16,7 @@ export default {
     appNav:navbar,
     appFooter:footer,
   },
-  data() {
-    return {
-      yazi,
-    }
-  },
-  mounted(){
-    console.log(this.yazi)
-  }
+
 };
 
 
